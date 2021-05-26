@@ -1,3 +1,12 @@
 data/
 .ipynb_checkpoints
 __pycache__
+.vscode
+
+# Ross 
+*.json
+test.py
+test0.py
+simple_cnn_old.ipynb
+prepare-dataset.py
+train_simple_cnn.py
