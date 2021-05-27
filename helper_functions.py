@@ -1,7 +1,8 @@
 import sys
 import numpy as np
 
-DATA_PATH = 'C:\\_University\\COM3025\\Coursework\\Speech-recognition-COM3025\\data\\prepped\\data'
+#DATA_PATH = 'C:\\_University\\COM3025\\Coursework\\Speech-recognition-COM3025\\data\\prepped\\data'
+DATA_PATH = 'data/processed/data'
 PERMITTED_LABELS = ['yes','no','up','down','left','right','on','off','stop','go','silence','unknown']
 
 def load_data(path=sys.modules[__name__].DATA_PATH):
